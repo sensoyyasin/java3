@@ -12,7 +12,6 @@ public class Main {
 		System.out.println("Student Name: " + "" + student.getFirstName() + " " + student.getLastName() + "," + "Number: " + "" + student.getToken());
 		
 		StudentManager studentManager = new StudentManager();
-		studentManager.addCreditcart(new DataBaseLogger());
 		studentManager.addenrollCourse(new DataBaseLogger());
 		
 		
