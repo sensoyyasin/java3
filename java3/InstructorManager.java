@@ -9,7 +9,7 @@ public class InstructorManager extends UserManager {
 	public void changeCourse(Logger logger) {
 		System.out.println("Course is changed");
 	}
-	public void returnCourse(Logger logger) {
+	public void addreturnCourse(Logger logger) {
 		System.out.println("Return to do course");
 	}
 }
