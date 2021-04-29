@@ -13,11 +13,13 @@ public class Main {
 		
 		StudentManager studentManager = new StudentManager();
 		studentManager.addCreditcart(new DataBaseLogger());
+		studentManager.addenrollCourse(new DataBaseLogger());
 		
 		
 		InstructorManager instructorManager = new InstructorManager();
 		instructorManager.addCreditcart(new DataBaseLogger());
-		
+		instructorManager.addCourse(new DataBaseLogger());
+		instructorManager.addreturnCourse(new DataBaseLogger());
 		
 		
 	}
